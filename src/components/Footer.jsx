@@ -15,7 +15,11 @@ function Footer() {
             <a href="#" className="text-gray-400 hover:text-white text-xl">
               <FaFacebookF />
             </a>
-            <a href="#" className="text-gray-400 hover:text-white text-xl">
+            <a 
+              href="https://wa.me/923009188812" 
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-400 hover:text-white text-xl">
               <FaWhatsapp />
             </a>
           </div>

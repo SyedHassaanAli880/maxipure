@@ -9,9 +9,16 @@ function App() {
   return (
 <div className="min-h-screen bg-black">
       <Navbar />
-      <Hero />
-      <Shop />
-      <AboutUs />
+      <section id="home">
+        <Hero />
+      </section>
+      <section id="shop">
+        <Shop />
+      </section>
+
+      <section id="aboutus">
+        <AboutUs />
+      </section>
       <Footer />
     </div>
   );

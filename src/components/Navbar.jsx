@@ -11,8 +11,9 @@ function Navbar() {
 
         {/* Desktop Menu */}
         <div className="hidden md:flex space-x-8">
-          <a href="#" className="font-bold text-white transition-colors">Shop</a>
-          <a href="#" className="font-bold text-white transition-colors">About us</a>
+        <a href="#home" className="font-bold text-white transition-colors">Home</a>
+          <a href="#shop" className="font-bold text-white transition-colors">Shop</a>
+          <a href="#aboutus" className="font-bold text-white transition-colors">About us</a>
         </div>
 
         {/* Mobile Menu Button */}
@@ -27,8 +28,9 @@ function Navbar() {
       {/* Mobile Dropdown Menu */}
       {isOpen && (
         <div className="md:hidden bg-black/90 py-4 px-6">
-          <a href="#" className="block text-white py-2">Shop</a>
-          <a href="#" className="block text-white py-2">About us</a>
+          <a href="#home" className="font-bold text-white transition-colors">Home</a>
+          <a href="#shop" className="block text-white py-2">Shop</a>
+          <a href="#aboutus" className="block text-white py-2">About us</a>
         </div>
       )}
     </nav>
